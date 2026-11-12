@@ -108,7 +108,12 @@
                 ]
             }
         ],
-        "scripts": []
+        "scripts": [],
+        "task": {
+            "push_to": [
+                "free"
+            ]
+        }
     },
     "groups": {
         "free": {
