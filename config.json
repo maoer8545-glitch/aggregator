@@ -10,10 +10,17 @@
         },
         "telegram": {
             "enable": true,
-            "pages": 5,
+            "pages": 3,
             "exclude": "",
             "channels": {
-                "proxy_channel": {
+                "outline_vpn": {
+                    "include": "",
+                    "exclude": "",
+                    "push_to": [
+                        "free"
+                    ]
+                },
+                "gh_v2rayng": {
                     "include": "",
                     "exclude": "",
                     "push_to": [
@@ -23,7 +30,7 @@
             }
         },
         "github": {
-            "enable": true,
+            "enable": false,
             "pages": 2,
             "exclude": "",
             "exclude_repos": [],
@@ -40,8 +47,67 @@
         "twitter": {
             "enable": false
         },
-        "repositories": [],
-        "pages": [],
+        "repositories": [
+            {
+                "enable": true,
+                "username": "mahdibland",
+                "repo": "V2RayAggregator",
+                "commits": 3,
+                "exclude": "",
+                "push_to": [
+                    "free"
+                ]
+            },
+            {
+                "enable": true,
+                "username": "Pawdroid",
+                "repo": "Free-servers",
+                "commits": 3,
+                "exclude": "",
+                "push_to": [
+                    "free"
+                ]
+            },
+            {
+                "enable": true,
+                "username": "mfuu",
+                "repo": "v2ray",
+                "commits": 3,
+                "exclude": "",
+                "push_to": [
+                    "free"
+                ]
+            }
+        ],
+        "pages": [
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
+                "include": "",
+                "exclude": "",
+                "push_to": [
+                    "free"
+                ]
+            },
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
+                "include": "",
+                "exclude": "",
+                "push_to": [
+                    "free"
+                ]
+            },
+            {
+                "enable": true,
+                "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
+                "include": "",
+                "exclude": "",
+                "push_to": [
+                    "free"
+                ]
+            }
+        ],
         "scripts": []
     },
     "groups": {
