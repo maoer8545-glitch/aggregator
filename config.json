@@ -65,27 +65,27 @@
         "items": {
             "free-clash": {
                 "username": "maoer8545-glitch",
-                "gist_id": "REPLACE_WITH_YOUR_GIST_ID",
+                "gist_id": "1f42d6456f771ad6855168274881d77a",
                 "filename": "clash.yaml"
             },
             "free-v2ray": {
                 "username": "maoer8545-glitch",
-                "gist_id": "REPLACE_WITH_YOUR_GIST_ID",
+                "gist_id": "1f42d6456f771ad6855168274881d77a",
                 "filename": "v2ray.txt"
             },
             "free-singbox": {
                 "username": "maoer8545-glitch",
-                "gist_id": "REPLACE_WITH_YOUR_GIST_ID",
+                "gist_id": "1f42d6456f771ad6855168274881d77a",
                 "filename": "singbox.json"
             },
             "crawledsubs": {
                 "username": "maoer8545-glitch",
-                "gist_id": "REPLACE_WITH_YOUR_GIST_ID",
+                "gist_id": "1f42d6456f771ad6855168274881d77a",
                 "filename": "crawledsubs.txt"
             },
             "crawledproxies": {
                 "username": "maoer8545-glitch",
-                "gist_id": "REPLACE_WITH_YOUR_GIST_ID",
+                "gist_id": "1f42d6456f771ad6855168274881d77a",
                 "filename": "crawledproxies.txt"
             }
         }
