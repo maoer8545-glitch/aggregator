@@ -1,0 +1,93 @@
+{
+    "sites": [],
+    "crawl": {
+        "enable": true,
+        "exclude": "",
+        "include_nodes": true,
+        "persist": {
+            "subscribe": "crawledsubs",
+            "nodes": "crawledproxies"
+        },
+        "telegram": {
+            "enable": true,
+            "pages": 5,
+            "exclude": "",
+            "channels": {
+                "proxy_channel": {
+                    "include": "",
+                    "exclude": "",
+                    "push_to": [
+                        "free"
+                    ]
+                }
+            }
+        },
+        "github": {
+            "enable": true,
+            "pages": 2,
+            "exclude": "",
+            "exclude_repos": [],
+            "push_to": [
+                "free"
+            ]
+        },
+        "google": {
+            "enable": false
+        },
+        "yandex": {
+            "enable": false
+        },
+        "twitter": {
+            "enable": false
+        },
+        "repositories": [],
+        "pages": [],
+        "scripts": []
+    },
+    "groups": {
+        "free": {
+            "emoji": true,
+            "list_only": false,
+            "targets": {
+                "clash": "free-clash",
+                "v2ray": "free-v2ray",
+                "singbox": "free-singbox"
+            },
+            "regularize": {
+                "enable": false,
+                "locate": true,
+                "digits": 2
+            }
+        }
+    },
+    "storage": {
+        "engine": "gist",
+        "items": {
+            "free-clash": {
+                "username": "maoer8545-glitch",
+                "gist_id": "REPLACE_WITH_YOUR_GIST_ID",
+                "filename": "clash.yaml"
+            },
+            "free-v2ray": {
+                "username": "maoer8545-glitch",
+                "gist_id": "REPLACE_WITH_YOUR_GIST_ID",
+                "filename": "v2ray.txt"
+            },
+            "free-singbox": {
+                "username": "maoer8545-glitch",
+                "gist_id": "REPLACE_WITH_YOUR_GIST_ID",
+                "filename": "singbox.json"
+            },
+            "crawledsubs": {
+                "username": "maoer8545-glitch",
+                "gist_id": "REPLACE_WITH_YOUR_GIST_ID",
+                "filename": "crawledsubs.txt"
+            },
+            "crawledproxies": {
+                "username": "maoer8545-glitch",
+                "gist_id": "REPLACE_WITH_YOUR_GIST_ID",
+                "filename": "crawledproxies.txt"
+            }
+        }
+    }
+}
